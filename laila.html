@@ -1443,13 +1443,14 @@ top: 50px;
   height: 80px;
     top: 30%;
     display: flex;
-    background: rgba(17, 44, 125, 0.2);
+    background: rgb(17 44 125 / 68%);
+    backdrop-filter: blur(20px);
     position: relative;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .copyright .copyright_link{
   float: left;
@@ -1717,7 +1718,7 @@ top: 50px;
     }   #experience_section .book2 span i::after,#education .book2 span i::after {
       height: 149px;
     }
-    .contact_me {    height: 78.8%;
+    .contact_me {    height: 83.8%;
     }
     .contact_me .contact_me_items {
     top: 25%;
@@ -1742,7 +1743,7 @@ top: 50px;
     top: 124%;
 }
 .copyright .copyright_link a{left: 0%;}
-
+.copyright .copyright_link{top: 30%;}
 
 #skills_section.active{
   width: 100%;
